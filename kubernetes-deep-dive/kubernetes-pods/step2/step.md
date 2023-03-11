@@ -1,4 +1,4 @@
-Запусти pod с именет `my-pod`
+Запусти pod с именем `my-pod`
 
 <br>
 <details><summary>Подсказка</summary>

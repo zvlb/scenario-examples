@@ -8,13 +8,60 @@
     "steps": [
       {
         "title": "Листинг pod'ов",
-        "text": "step1/step1.md",
-        "verify": "step1/step1.sh"
+        "text": "step1/step.md",
+        "verify": "step1/verify.sh"
       },
       {
         "title": "Создание pod'а",
-        "text": "step2/step2.md",
-        "verify": "step2/step2.sh"
+        "text": "step2/step.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Листинг pod'ов",
+        "text": "step3/step.md",
+        "verify": "step3/verify.sh",
+        "background": "step3/background.sh"
+      },
+      {
+        "title": "Определение image pod'а",
+        "text": "step4/step.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Определение где запущены pod'ы",
+        "text": "step5/step.md",
+        "verify": "step5/verify.sh"
+      },
+      {
+        "title": "Работа с контейнерами pod'ов",
+        "text": "step6/step.md",
+        "verify": "step6/verify.sh",
+        "background": "step6/background.sh"
+      },
+      {
+        "title": "Работа с контейнерами pod'ов",
+        "text": "step7/step.md",
+        "verify": "step7/verify.sh"
+      },
+      {
+        "title": "Работа с контейнерами pod'ов",
+        "text": "step8/step.md",
+        "verify": "step8/verify.sh"
+      },
+      {
+        "title": "Работа с контейнерами pod'ов",
+        "text": "step9/step.md",
+        "verify": "step9/verify.sh"
+      },
+      {
+        "title": "Работа с контейнерами pod'ов",
+        "text": "step10/step.md",
+        "verify": "step10/verify.sh"
+      },
+      {
+        "title": "Удаление pod'а",
+        "text": "step11/step.md",
+        "verify": "step11/verify.sh"
       }
     ],
     "finish": {
