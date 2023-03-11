@@ -5,7 +5,7 @@
 
 ```bash
 export answer=<<ОТВЕТ>>
-echo &answer > result
+echo $answer > result
 ```
 
 

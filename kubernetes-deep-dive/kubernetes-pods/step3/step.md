@@ -1,7 +1,12 @@
 Сколько pod'ов запущено сейчас?
 
 Ответ запиши в файл result
-`echo "<<ОТВЕТ>>" > result`
+
+```bash
+export answer=<<ОТВЕТ>>
+echo $answer > result
+```
+
 
 <br>
 <details><summary>Подсказка</summary>
