@@ -1,18 +1,10 @@
 #!/bin/bash
 
-result=$(k get po --no-headers | wc -l)
-if [ "$result" = "No resources found in default namespace." ]
-then
-  result=0
-fi
-
+realResult=$(kubectl get po --no-headers | wc -l 2>&1)
 
 userResult=$(cat result)
 
-echo $result
-echo $userResult
-
-if [ $result -nq $userResult ] 
+if [ $realResult -ne $userResult ]
 then
   exit 1
 fi
