@@ -9,7 +9,10 @@ fi
 
 userResult=$(cat result)
 
-if ["$result" -nq "$userResult"] 
+echo $result
+echo $userResult
+
+if [ $result -nq $userResult ] 
 then
   exit 1
 fi
