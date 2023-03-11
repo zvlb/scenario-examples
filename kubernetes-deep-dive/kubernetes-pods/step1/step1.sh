@@ -1,7 +1,11 @@
 #!/bin/bash
 
-variable=$(k get po -n 1xgames-translations-1654 | wc -l) 
-result=$(($variable-1))
+result=$(k get po --no-headers | wc -l)
+if [ "$result" = "No resources found in default namespace." ]
+then
+  result=0
+fi
+
 
 userResult=$(cat result)
 
