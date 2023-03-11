@@ -1,4 +1,4 @@
-Удвлите pod containers-test
+Удвалите pod containers-test
 
 <br>
 <details><summary>Подсказка</summary>

@@ -2,7 +2,12 @@
 Сколько pod'ов обнаружено?
 
 Ответ запиши в файл result
-`echo "<<ОТВЕТ>>" > result`
+
+```bash
+export answer=<<ОТВЕТ>>
+echo &answer > result
+```
+
 
 <br>
 <details><summary>Подсказка</summary>

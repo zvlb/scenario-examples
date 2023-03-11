@@ -1,7 +1,11 @@
 Какой статус (state) у контейнера с именем third-container в pod'e containers-test
 
 Ответ запиши в файл result
-`echo "<<ОТВЕТ>>" > result`
+
+```bash
+export answer=<<ОТВЕТ>>
+echo &answer > result
+```
 
 <br>
 <details><summary>Подсказка</summary>
