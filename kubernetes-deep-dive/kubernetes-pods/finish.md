@@ -1,6 +1,6 @@
 
 <br>
 
-### WELL DONE !
+### Успешно !
 
-You solved this challenge!
+Ты успешно справился с работой с pod'ами 

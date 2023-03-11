@@ -1,6 +1,16 @@
-Запустите команду `kubectl run test --image=ubuntu`
+Запусти pod с именет `my-pod`
 
-Убедитесь, что был создан pod c именем test
+<br>
+<details><summary>Подсказка</summary>
+<br>
+Pod должен быть в namespace default
+</details>
 
----
-Используемый namespace - default
+<br>
+<details><summary>Решение</summary>
+<br>
+`kubectl run my-pod --image=nginx`
+Можно использовать любой другой image для pod'а
+</details>
+
+
