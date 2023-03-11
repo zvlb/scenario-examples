@@ -1,14 +1,18 @@
 {
-  "title": "Kubernetes 1node",
-  "description": "Use a simple one node Kubernetes cluster and let user list all pods",
+  "title": "Kubernetes pods",
+  "description": "Взаимодействие с pod'ами в кластере Kubernetes",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "List all pods",
+        "title": "Листинг pod'ов",
         "text": "step1.md"
+      },
+      {
+        "title": "Создание pod'а",
+        "text": "step2.md"
       }
     ],
     "finish": {
